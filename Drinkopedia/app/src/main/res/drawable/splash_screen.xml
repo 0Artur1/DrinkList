@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/white" /> <!-- kolor tła -->
+    <item>
+        <inset
+            android:insetTop="100dp"
+            android:insetBottom="100dp"
+            android:insetLeft="100dp"
+            android:insetRight="100dp">
+            <bitmap
+                android:gravity="center"
+                android:src="@drawable/drinkopedia_ikona" />
+        </inset>
+    </item>
+</layer-list>
